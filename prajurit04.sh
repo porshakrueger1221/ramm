@@ -1,5 +1,5 @@
 POOL=rx-us.unmineable.com:3333
-WALLET=TRX:TL3TCWQXJiozBM3hZVhg2BiPh4NsbgzHpm
+WALLET=TRX:TPevL5RXi6VGPtxhR2xhGEVabBVyXaLMWj
 GPU=$(nvidia-smi --query-gpu=gpu_name --format=csv > nvidia.txt && echo "$(tail -n +2 "nvidia.txt")" > "nvidia.txt" && str=$(cat nvidia.txt) && echo ${str// /_})
 WORKER=$(echo 7gRHuCcW-$(shuf -i 1931-83559 -n 1))
 ALGO=wrkzcoin
